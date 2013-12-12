@@ -18,8 +18,6 @@ module.exports = (grunt) ->
 				dest: 'public/application.js'
 			vendors:
 				src: [
-					'js/libs/jquery*.js'
-					'js/libs/handlebars*.js'
 				]
 				dest: 'public/app.vendors.js'
 
