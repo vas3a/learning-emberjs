@@ -20,9 +20,6 @@ module.exports = (grunt) ->
 				src: [
 					'js/libs/jquery*.js'
 					'js/libs/handlebars*.js'
-					'js/libs/ember-1.2.0.js'
-					'js/libs/ember-data.js'
-					'js/libs/ls_adapter.js'
 				]
 				dest: 'public/app.vendors.js'
 
