@@ -18,6 +18,8 @@ module.exports = (grunt) ->
 				dest: 'public/application.js'
 			vendors:
 				src: [
+					'js/libs/ember-data.js'
+					'js/libs/ls_adapter.js'
 				]
 				dest: 'public/app.vendors.js'
 
